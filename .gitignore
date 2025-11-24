@@ -1,0 +1,12 @@
+@"
+# Rust
+target/
+# Visual Studio / VS Code cache
+.vs/
+.vscode/
+*.user
+*.suo
+*.log
+*.tmp
+*.vsidx
+"@ | Out-File -Encoding utf8 .gitignore
